@@ -1,13 +1,19 @@
+body{
+    
+}
+
 html{
     font-size: 10px;
+    
 }
 
 h1{
-    font-family: 'Rochester', cursive;
+    font-family: 'Rochester', cursive ;
     font-size: 14rem;
     text-align: center;
     font-weight: 100;
     margin: 2rem 0;
+    color: #03045E ;;
     
 }
 
@@ -27,11 +33,17 @@ h1{
     border: 4px solid #d3d3d3;
     padding: 2rem;
     flex-grow: 1;
-    margin:0 2rem;
+    margin:0rem 2rem 3rem ;
 }
 
 .photo{
 
     width: calc(100% + 4rem);
     margin: -2rem 0rem 0rem -2rem;
+}
+
+.caption{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 16px;
 }
