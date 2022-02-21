@@ -40,10 +40,28 @@ h1{
 
     width: calc(100% + 4rem);
     margin: -2rem 0rem 0rem -2rem;
+    border: black 2px;
 }
 
 .caption{
     font-family: 'Raleway', sans-serif;
-    text-align: center;
+   
     font-size: 16px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.remove-button{
+    flex-basis: 78%;
+    color: red;
+    font-size: 15px;
+    border: 2px solid rgb(87, 73, 73);
+    line-height: 2;
+    padding: 5px;
+
+
 }
